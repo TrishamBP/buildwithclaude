@@ -2429,6 +2429,34 @@
       }
     },
     {
+      "name": "carrick",
+      "description": "Claude Code plugin for Carrick, which indexes TypeScript codebases across service and repository boundaries. After each edit it adds the file's routes, calls, and cross-service type mismatches to the session, and it registers Carrick's language server. It pairs with the Carrick MCP server, which lets agents search functions by intent rather than name.",
+      "author": {
+        "name": "Carrick",
+        "url": "https://carrick.tools"
+      },
+      "homepage": "https://carrick.tools",
+      "repository": "https://github.com/carrick-tools/carrick",
+      "license": "Elastic-2.0",
+      "keywords": [
+        "typescript",
+        "mcp",
+        "api-contracts",
+        "monorepo",
+        "microservices",
+        "coding-agents",
+        "language-server"
+      ],
+      "category": "development",
+      "version": "0.3.93",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/carrick-tools/carrick.git",
+        "path": "plugin",
+        "ref": "main"
+      }
+    },
+    {
       "name": "production-fast-api-template",
       "description": "Production-ready standards for a scalable, unified FastAPI + RAG + Agentic AI backend on AWS ECS Fargate: project structure, async execution, Pydantic and structured outputs, API conventions, guardrails, AI evaluation (DeepEval, Ragas), API security and LLM/agent security.",
       "version": "0.1.0",
